@@ -1,13 +1,48 @@
 
-.definition-input {
-    padding: 15px 20px;
-	width: 300px;
+canvas {
+  margin-top: 200px;
+  margin-bottom: 200px;
+  display: block;
+  margin: 0 auto;
+  width: 50%; /* set a specific width for the canvas */
+  border: 2px dotted rgb(211, 211, 211);
+  border-radius: 300px;
+  box-shadow: 0 0 0 10px rgb(255, 255, 255);
 }
 
-.input-title {
-  font-family: 'Roboto Mono', monospace;
-  font-size: 1.2rem;
-  text-align: left;
-  color: #333;
-  margin-bottom: 1rem;
-}
+body { margin: 0; }
+
+
+      
+      input[type="range"] {
+        width: 100%;
+        background-color: black;
+        appearance: none;
+        border-radius: 10px;
+        margin: 10px 0;
+      }
+      
+      input[type="range"]::-webkit-slider-thumb {
+        appearance: none;
+        width: 20px;
+        height: 20px;
+        background-color: white;
+        border-radius: 50%;
+        cursor: pointer;
+      }
+      
+      input[type="range"]::-moz-range-thumb {
+        width: 20px;
+        height: 20px;
+        background-color: white;
+        border-radius: 50%;
+        cursor: pointer;
+      }
+      
+      label {
+        color: rgb(0, 0, 0);
+        font-size: 12px;
+        text-align: center;
+        font-family: 'Courier New', Courier, monospace;
+      }
+      
